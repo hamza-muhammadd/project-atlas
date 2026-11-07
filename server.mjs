@@ -3,7 +3,7 @@ if(fs.existsSync('.env'))for(const l of fs.readFileSync('.env','utf8').split('\n
 const T={'.html':'text/html','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.png':'image/png'};
 http.createServer((q,r)=>{
  let p=decodeURIComponent(q.url.split('?')[0]);
- if(p==='/config.js'){r.setHeader('Content-Type','text/javascript');
+ if(p==='/config.js'&&process.env.SUPABASE_URL){r.setHeader('Content-Type','text/javascript');
   return r.end(`window.ATLAS_CONFIG=${JSON.stringify({url:process.env.SUPABASE_URL||'',anonKey:process.env.SUPABASE_ANON_KEY||''})}`)}
  if(p.endsWith('/'))p+='index.html';
  const f=path.join(process.cwd(),path.normalize(p));

@@ -1,3 +1,8 @@
+# Quick start (config already included)
+1. Supabase > SQL Editor > paste all of `supabase/schema.sql` > Run.
+2. Supabase > Authentication > Users > Add user (your email + password, tick auto-confirm). Then Auth settings > turn off "Allow new users to sign up".
+3. Run: `npm start` and open http://localhost:5173. Or push to GitHub and import into Vercel (no env vars needed; `config.js` holds the public anon key).
+
 # Project Atlas: The Universal Mind (Phase 1)
 
 ## Run locally

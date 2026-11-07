@@ -1,0 +1,1 @@
+window.ATLAS_CONFIG={"url":"https://xmtihcyblvmsxwwhpxwb.supabase.co","anonKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhtdGloY3libHZtc3h3d2hweHdiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQwMzU4NzQsImV4cCI6MjEwOTYxMTg3NH0.LJSQJ2aBCSq1vPYxwKRDFQbGxRir4HShGN42UUN3pnQ"}
